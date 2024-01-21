@@ -3,5 +3,4 @@
 0="${ZERO:-${${0:#$ZSH_ARGZERO}:-${(%):-%N}}}"
 0="${${(M)0:#/*}:-$PWD/$0}"
 
-source $ZSH_DIR/plugins/zsh-vi-mode/zsh-vi-mode.zsh
-
+source ${0:h}/zsh-vi-mode.zsh

@@ -2,6 +2,8 @@
 alias nvim='chmod +x $HOME/.config/nvim/nvim.appimage && $HOME/.config/nvim/nvim.appimage'
 alias nv='chmod +x $HOME/.config/nvim/nvim.appimage && $HOME/.config/nvim/nvim.appimage'
 
+
+
 # Push to dotfiles repo
 # dotfiles add /path/to/file
 # dotfiles commit -m "A short message"
@@ -9,7 +11,6 @@ alias nv='chmod +x $HOME/.config/nvim/nvim.appimage && $HOME/.config/nvim/nvim.a
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 export PATH='/usr/bin:$PATH'
-
 
 alias f='fzf'
 alias zsh-update-plugins="find "$ZSH_DIR/plugins" -type d -exec test -e '{}/.git' ';' -print0 | xargs -I {} -0 git -C {} pull -q"

@@ -1,1 +1,4 @@
+plugin/packer_compiled.lua
+pack/github/start/copilot.vim/
+lazy-lock.json
 *.json
