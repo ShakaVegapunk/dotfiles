@@ -1,8 +1,5 @@
-#alias nvim='$HOME/.config/nvim/nvim.appimage -u $HOME/.config/nvim/init.lua'
 alias nvim='chmod +x $HOME/.config/nvim/nvim.appimage && $HOME/.config/nvim/nvim.appimage'
 alias nv='chmod +x $HOME/.config/nvim/nvim.appimage && $HOME/.config/nvim/nvim.appimage'
-
-
 
 # Push to dotfiles repo
 # dotfiles add /path/to/file
@@ -37,7 +34,7 @@ alias free='free -m' # show sizes in MB
 # get top process eating memory
 alias psmem='ps auxf | sort -nr -k 4 | head -5'
 
-# get top process eating cpu ##
+# get top process eating cpu
 alias pscpu='ps auxf | sort -nr -k 3 | head -5'
 
 # gpg encryption
